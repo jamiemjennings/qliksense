@@ -66,7 +66,7 @@ Set the indicated `Key ID Variable` to the `"kid"` value from the JWKS JSON obta
 | tenants                      | serviceJwt.jwtPrivateKey                    | serviceJwt.keyId                     |
 | users                        | serviceJwt.jwtPrivateKey                    | serviceJwt.keyId                     |
 
-5. `edge-auth` has sevaral other secrets that need periodic rotation. Namely:
+5. `edge-auth` has several other secrets that need periodic rotation. Namely:
 
 - secrets.loginStateKey
 - secrets.cookieKeys
